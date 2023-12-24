@@ -126,3 +126,47 @@ background-color:#ff7b00;
     gap: 0,5rem;
     align-items: end;
 }
+.carrusel { 
+    width: 400px !important;
+
+}
+.publicaciones { 
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.coaching-titulo { 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
+.img-coaching { 
+ width: 200px;
+ margin-left: 2rem;
+}
+
+.main-servicios { 
+    display: flex;
+}
+.parrafo-coaching { 
+    margin-left: 1.5rem
+}
+.parrafo-sobre { 
+    padding: 1rem;
+}
+.titulo-sobre { 
+    padding: 1rem;
+    font-weight: 700;
+}
+.titulo-img { 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(../img/pexels-shvets-production-7191994.jpg);
+    padding: 3.3rem;
+    background-repeat: no-repeat;
+    height: 220px;
+    background-size: cover;
+
+}
