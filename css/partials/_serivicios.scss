@@ -1,0 +1,48 @@
+.coaching-titulo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+  }
+  
+  .img-coaching {
+    width: 300px;
+    margin-left: 2rem;
+  }
+  
+  .main-servicios {
+    display: flex;
+  }
+  .parrafo-coaching {
+    margin-left: 1.5rem;
+  }
+  .facilitacion-main {
+    display: flex;
+  }
+  
+  .img-facilitacion {
+    width: 300px;
+    margin-left: 2rem;
+  }
+  
+  .consultoria-main {
+    display: flex;
+  }
+  
+  .img-consultoria {
+    width: 300px;
+  }
+  .programa, .talleres, .agenda { 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid $color-fondo;
+    border-radius: 1rem;
+    font-weight: 600px;
+    font-size: 18px;
+    padding: 1rem;
+
+
+  }
+  .programa:hover, .talleres:hover, .agenda:hover {
+    background-color: $color-fondo;
+  }

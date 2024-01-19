@@ -1,0 +1,93 @@
+a {
+    text-decoration: none !important;
+    color: black !important;
+  }
+  
+  ul, li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .main-img {
+    background-color: $color-fondo;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 2rem;
+    font-weight: 700;
+  }
+  
+  .parrafo1 {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .que {
+    font-weight: normal;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 700;
+  }
+  
+  .parrafo2 {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .como-lo-hacemos {
+    margin-top: 3rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .como {
+    font-weight: 700;
+  }
+  
+  .cardlink1, .cardlink2, .cardlink3 {
+    text-align: center;
+    border: 1px solid $color-fondo;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: $color-fondo;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .cardlink1:hover, .cardlink2:hover, .cardlink3:hover {
+    background-color: $color-fondo;
+  }
+  
+  .card {
+    border: none !important;
+  }
+  
+ 
+  
+
+  
+  
+
+  
+ 
+  
+  
+  
+ 
+  

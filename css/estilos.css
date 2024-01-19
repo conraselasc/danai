@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.navbar {
+  padding: 2rem !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+ul, li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-img {
+  background-color: #ff7b00;
+  color: white;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem;
+  font-weight: 700;
+}
+
+.parrafo1 {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.que {
+  font-weight: normal;
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: 700;
+}
+
+.parrafo2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.como-lo-hacemos {
+  margin-top: 3rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.como {
+  font-weight: 700;
+}
+
+.cardlink1, .cardlink2, .cardlink3 {
+  text-align: center;
+  border: 1px solid #ff7b00;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #ff7b00;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cardlink1:hover, .cardlink2:hover, .cardlink3:hover {
+  background-color: #ff7b00;
+}
+
+.card {
+  border: none !important;
+}
+
+.coaching-titulo {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+
+.img-coaching {
+  width: 300px;
+  margin-left: 2rem;
+}
+
+.main-servicios {
+  display: flex;
+}
+
+.parrafo-coaching {
+  margin-left: 1.5rem;
+}
+
+.facilitacion-main {
+  display: flex;
+}
+
+.img-facilitacion {
+  width: 300px;
+  margin-left: 2rem;
+}
+
+.consultoria-main {
+  display: flex;
+}
+
+.img-consultoria {
+  width: 300px;
+}
+
+.programa, .talleres, .agenda {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ff7b00;
+  border-radius: 1rem;
+  font-weight: 600px;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.programa:hover, .talleres:hover, .agenda:hover {
+  background-color: #ff7b00;
+}
+
+.parrafo-sobre {
+  padding: 1rem;
+}
+
+.titulo-sobre {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.titulo-img {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-image: url(../img/pexels-shvets-production-7191994.jpg);
+  padding: 3.3rem;
+  background-repeat: no-repeat;
+  height: 220px;
+  background-size: cover;
+}
+
+.origen {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.fundadora {
+  margin-top: 1rem;
+  font-weight: 600px;
+  margin-bottom: 1rem;
+}
+
+.carrusel {
+  width: 400px !important;
+}
+
+.publicaciones {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-blog {
+  width: 650px !important;
+  margin-top: 3rem;
+}
+
+.titulo-conversaciones {
+  margin-top: 2rem;
+}
+
+.msj {
+  margin-top: 0.5rem;
+  margin-bottom: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.formulario {
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+
+.footer1 {
+  flex: 2;
+}
+
+.footer2 {
+  flex: 1;
+}
+
+.footer3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0, 5rem;
+  align-items: end;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  color: black;
+  margin-top: 4rem;
+  background-color: #ff7b00;
+}
+
+/* Estilos para pantallas grandes (mayores a 992px) */
+@media (min-width: 993px) {
+  .carousel-item img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel-item img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* Estilos para pantallas pequeñas (menores a 768px) */
+@media (max-width: 767px) {
+  .carousel-item img {
+    width: 100%;
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

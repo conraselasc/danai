@@ -1,0 +1,24 @@
+/* Estilos para pantallas grandes (mayores a 992px) */
+@media (min-width: 993px) {
+    .carousel-item img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .carousel-item img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas (menores a 768px) */
+  @media (max-width: 767px) {
+    .carousel-item img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
