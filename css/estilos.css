@@ -180,6 +180,11 @@ ul, li {
   margin-bottom: 1rem;
 }
 
+.imagen-fundadora {
+  max-width: 600px;
+  margin: 1rem;
+}
+
 .carrusel {
   width: 400px !important;
 }
@@ -198,6 +203,10 @@ ul, li {
 
 .titulo-conversaciones {
   margin-top: 2rem;
+}
+
+.parrafo-autogestion {
+  font-style: italic;
 }
 
 .msj {
